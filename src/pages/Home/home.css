@@ -1,0 +1,27 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.lower-home-container{
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.lower-home-container h1{
+    font-size: 80px;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0;
+}
+
+.MOEL_LOGO{
+    height: 200px;
+    border-radius: 14px;
+    margin-top: 10px;
+}
