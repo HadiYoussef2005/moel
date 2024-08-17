@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.card {
+    width: 70vw;
+    padding: 10px;
+    border: solid 2px black;
+    border-radius: 20px;
+}
+.card-content {
+    display: flex;
+    flex-direction: row;    
+    height: 60vh;
+    
+}
+
+.card-form{
+    height: 100%;
+    width: 30vw;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+
+.logo{
+    height: 100%;
+    width: 40vw;
+    border-radius: 20px;
+    border: solid black 2px;
+}
+
+/* Header */
+.card-header{
+    margin-top: 2vh;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+/* User Input Section */
+.user-input{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    justify-content: center;
+}
+
+.submit-button{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Set up send to register */
+.no-account{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
